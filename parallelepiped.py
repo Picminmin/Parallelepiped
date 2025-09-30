@@ -78,11 +78,11 @@ class Parallelepiped:
                 ):
         """
         Args:
-            X_test(nd.array): 予測したい特徴量をまとめた配列.
+            X_test(ndarray): 予測したい特徴量をまとめた配列.
             remove_order_dependency(bool): 順序依存性への対処を行うかを決める.
             classification_strategy(str): 順序依存性を解消した分類戦略を指定する.
         Returns:
-            y_pred(nd.array): 特徴量に対する予測ラベルをまとめた配列.
+            y_pred(ndarray): 特徴量に対する予測ラベルをまとめた配列.
         """
         y_pred = []
         if remove_order_dependency:
