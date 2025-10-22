@@ -182,6 +182,8 @@ if __name__ == '__main__':
         random_state=43
     )
     model = Parallelepiped()
+
+    
     model.fit(X_train = X_train, y_train = y_train)
     y_pred = model.predict(X_test = X_test)
     print(accuracy_score(y_true=y_test, y_pred=y_pred))
